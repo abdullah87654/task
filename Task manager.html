@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+     <nav>
+        <div class="name">Task Manager</div>
+     </nav>
+     </header>
+            <main>
+                <div class="pop">
+            <span class="close" onclick="cl()">&times;</span>
+            <h1 class="h">Congratulation</h1>
+            <h2>You have completed your task</h2>
+        </div>
+                <div class="main">
+                <div class="list">
+                     <div class="count">Total Task</div>
+                    <div class="container">
+                        <div class="task">
+                            <input type="text" class="input"><button class="bt done" onclick="pop()">Complete</button><button class="bt remove" onclick="del.call(this)">Delete</button>
+                        </div>
+                    </div>
+                </div>
+            <button class="btn add" onclick="add()">Add</button>
+            <button class="btn clear" onclick="cle()">All Delete</button>
+            <script src="script.js"></script></div>
+            </main>
+            <footer>Thanks for visiting our page, stay connected!</footer>
+    </body>
+</html>

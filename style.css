@@ -1,0 +1,109 @@
+body{
+    background-color: rgba(11,11,11,0.97);
+}
+.name{
+    color: red;
+}
+nav{
+    font-size: 35px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+}
+.signup{
+    color: white;
+}
+.list{
+    width:890px;
+    height: 530px;
+    border-radius: 40px;
+}
+.main{
+    background-color: rgba(33, 33, 33, 0.589);
+    width: 899px;
+    height: 600px;
+    margin-left: 320px;
+    border: 2px solid rgba(33, 33, 33, 0.589);
+    margin-top: 20px;
+    border-radius: 40px;
+}
+.btn{
+    margin-top: 20px;
+    font-size: 22px;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+}
+.count{
+    font-size: 27px;
+    margin-left: 330px;
+    padding-left: 20px;
+    width: 250px;
+    color: red;
+    font-family: sans-serif;
+}
+.container{
+    width: 908px;
+    height: 500px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    overflow: auto;
+}
+.bt{
+    width: 100px;
+    font-size: 21px;
+    height: 35px;
+    background-color: rgba(33, 33, 33, 0.589);
+    background-color: red;
+    color: white;
+    margin-left: 2px;
+}
+.input{
+    width: 674px;
+    height: 29px;
+    font-size: 19px;
+    background-color: rgba(33, 33, 33, 0.589);
+    color: aliceblue;
+}
+.pop{
+    background-color: rgb(33, 33, 33);
+    width: 500px;
+    color: white;
+    height: 245px;
+    text-align: center;
+    border-radius: 30px;
+    line-height: 10px;
+    padding-top: 100px;
+    margin-top: 110px;
+    margin-left: 470px;
+    position: fixed;
+    display: none;
+}
+.close{
+    background-color: red;
+    width: 50px;
+    cursor: pointer;
+}
+.task{
+    margin-top: 5px;
+    border: 0.4px solid white;
+    width: 889px;
+}
+.done{
+    margin-left: 5px;
+}
+.add{
+    margin-left: 220px;
+}
+.clear{
+    margin-left: 20px;
+}
+footer{
+    text-align: center;
+    color: white;
+    font-size: 29px;
+    margin-top: 70px;
+}
